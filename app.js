@@ -50,7 +50,7 @@ askButton.addEventListener('click', () => {
 
 function copyQuestion() {
     const question = askedQuestion.value;
-    questionDisplay.textContent = 'I hear you like ' + question + ''.'';
+    questionDisplay.textContent = 'I hear you like ' + question + '.';
 }
 
 function toggleVisibility() {
