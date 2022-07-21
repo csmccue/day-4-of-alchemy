@@ -40,14 +40,15 @@ section {
     text-align: center;
     justify-items: center;
     background: white;
-    border: 1px solid black;
+      /*  border: 1px solid black;    */
 }
 #question-section{
     justify-items: center;
     padding: 20px 0;
     gap: 20px;
-    background: white;
+  /*  background: white;
     border: 1px solid black;
+    */
 }
 textarea{
     width: 250px;
@@ -57,13 +58,15 @@ textarea{
     display: none;
 }
 .crystal-ball{
-    font-size: 25em;
+    font-size: 20em;
     margin: -30px 0;
     grid-row: 2;
     grid-column: 1;
 }
 #answer-section{
     padding: 20px;
+    background: rgb(8, 117, 0);
+    border: 1px solid black;
 }
 #answer-display{
     grid-row: 2;
@@ -71,7 +74,7 @@ textarea{
     margin-top: 12em;
     color: white;
     text-shadow: 4px 4px 7px black;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin-left: 0.7em;
     opacity: 0;
     transition: opacity .5s ease-in .5s;
@@ -80,6 +83,11 @@ textarea{
 
 #answer-display.show{
     opacity: 1;
+}
+#question-display{
+    color: white;
+    text-shadow: 4px 4px 7px black;
+    font-size: 1.5em;
 }
 
 .shake {
