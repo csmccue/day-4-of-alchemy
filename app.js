@@ -50,7 +50,7 @@ askButton.addEventListener('click', () => {
 
 function copyQuestion() {
     const question = askedQuestion.value;
-    questionDisplay.textContent = "I hear you like " + question + ".";
+    questionDisplay.textContent = 'I hear you like ' + question + ''.'';
 }
 
 function toggleVisibility() {
@@ -100,7 +100,7 @@ function getRandomItem(array) {
 }
 function showRandomAnswer(){
     const randomAnswer = getRandomItem(answers);
-    answerDisplay.textContent = "Why not try the " + randomAnswer + "?";
+    answerDisplay.textContent = 'Why not try the ' + randomAnswer + '?';
 }
 
 function applyAnimations(){
