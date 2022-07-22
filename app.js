@@ -44,13 +44,18 @@ const answers = [
 askButton.addEventListener('click', () => {
     copyQuestion();
     toggleVisibility();
+    console.log("Welcome to Chili's");
+    console.log("All my homies love Chili's");
     showRandomAnswer();
     applyAnimations();
 });
 
+
 function copyQuestion() {
     const question = askedQuestion.value;
-    questionDisplay.textContent = 'I hear you like ' + question + '.';
+    questionDisplay.innerHTML = 'I also enjoy ' + question + ' food'
+    + '<br />' 
+    + 'Please allow me to recommend something similar...';
 }
 
 function toggleVisibility() {
